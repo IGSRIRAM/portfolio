@@ -116,3 +116,9 @@ function showSlider(category) {
     function hidePopupw2() {
       document.getElementById('popupOverlay8').style.display = 'none';
     }
+
+
+
+
+
+

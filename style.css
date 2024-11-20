@@ -7,153 +7,9 @@ body {
      overflow-x: hidden;
     /* background: radial-gradient(ellipse at bottom, #1b2735, #090a0f); */
   }
-/* Header Container with Slide-In Animation */
-.oheader {
-  background-color: #ffffff;
-  height: 120px;
-  position: fixed;
-  top: 0;
-  z-index: 5;
-  animation: slideDown 0.8s ease-in-out; /* Slide-in animation */
-}
-
-.oheader ul li a{
-  text-decoration: none;
-  color: #7c7c7c;
-}
-
-/* Inner Header Styling */
-.header {
-  background-color: #F5F5F5;
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 0;
-  right: 0;
-  border-radius: 50px;
-  margin-top: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  animation: fadeIn 1.5s ease forwards; /* Fade-in effect */
-  animation-delay: 0.2s; /* Delay to align with slide */
-}
-
-/* Row Styling */
-.header .row {
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Navigation Items Hover Animation */
-.header .row li {
-  margin: 0 12px;
-  color: #7c7c7c;
-  cursor: pointer;
-  font-weight: bold;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-.header .row li a:hover {
-  color: #000000;
-}
-
-.header .row li::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  height: 2px;
-  width: 100%;
-  background-color: #333333;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-  transform-origin: right;
-}
-
-.header .row li:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
 
 
-/* Resume Button Styling with Hover and Scale Animation */
-
-.button {
-  height: 40px;
-  width: 110px;
-  position: relative;
-  background-color: transparent;
-  cursor: pointer;
-  border: 2px solid #252525;
-  overflow: hidden;
-  border-radius: 30px;
-  color: #333;
-  transition: all 0.5s ease-in-out;
-}
-
-.btn-txt {
-  z-index: 1;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-.type1::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  transition: all 0.5s ease-in-out;
-  background-color: #333;
-  border-radius: 30px;
-  visibility: hidden;
-  height: 10px;
-  width: 10px;
-  z-index: -1;
-}
-
-.button:hover {
-  box-shadow: 1px 1px 200px #252525;
-  color: #fff;
-  border: none;
-}
-
-.type1:hover::after {
-  visibility: visible;
-  transform: scale(100) translateX(2px);
-}
-
-
-/* Keyframes for Slide-Down Animation */
-@keyframes slideDown {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-/* Keyframes for Fade-In Animation */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-
+  
 
 
 
@@ -323,6 +179,30 @@ body {
 .w2{
   background-image: url(./workes/w2.jpg);
 }
+.fm1{
+  background-image: url(./workes/FM1.jpg);
+}
+.fw1{
+  background-image: url(./workes/fw11.png);
+}
+.fw2{
+  background-image: url(./workes/FW2.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .slider-item::before {
   content: "";
@@ -562,10 +442,6 @@ form textarea {
         margin: 0 auto;
     }
 }
-
-
-
-
 
 
 
@@ -999,3 +875,8 @@ ul {
       border-radius: 4px;
       cursor: pointer;
     }
+
+
+
+
+
