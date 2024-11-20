@@ -188,6 +188,21 @@ body {
 .fw2{
   background-image: url(./workes/FW2.png);
 }
+.h1{
+  background-image: url(./workes/html.jpg);
+}
+.j1{
+  background-image: url(./workes/js.jpg);
+}
+.r1{
+  background-image: url(./workes/FW2.png);
+}
+.wp1{
+  background-image: url(./workes/wp1.jpg);
+}
+.wp2{
+  background-image: url(./workes/wp2.jpg);
+}
 
 
 
@@ -242,18 +257,21 @@ body {
 
 /* Title Text */
 .slider-title {
-  font-size: 1.5rem;
-  color: #374151;
+  font-size: 1.8rem;
+  color: #ffffff;
   margin-bottom: 20px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 40px;
+  background: rgb(54, 54, 54);
+  padding: 0px 18px 0px 18px;
+  border-radius: 50px;
 }
 
 /* Buttons - Classic and Professional Look */
 .slider-buttons {
   display: flex;
   justify-content: center; /* Center the buttons horizontally */
-  gap: 15px;
+  gap: 5px;
   flex-direction: row; /* Horizontal layout */
   margin: 10px;
 }
@@ -262,7 +280,7 @@ body {
 .slider-buttons button {
   background-color: #515557;
   color: white;
-  padding: 8px 15px; /* Reduced padding for smaller size */
+  padding: 8px 10px; /* Reduced padding for smaller size */
   border: 2px solid #515557;
   border-radius: 20px; /* Slightly smaller radius for a more compact look */
   font-size: 0.9rem; /* Reduced font size */
